@@ -1,0 +1,66 @@
+section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+}
+
+section > div {
+    flex-direction: column;
+    display: inline-block;
+    position: relative;
+}
+
+.sold-out-text {
+    position: absolute;
+    margin-left: 2em;
+    top: 0.7%; 
+    left: 10%;
+    transform: translate(-50%, -50%);
+    padding: 0.2em 0.5em;
+    background-color: white;
+    font-weight: 400;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.container-swimmer-img {
+    border-radius: 10px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.start-img {
+    height: 1.1em;
+    margin: 0em 0.3em 0em 0em;
+}
+
+.rating {
+    font-weight: 500;
+    color: rgb(0,0,0, 0.7);
+    margin: 0em 1em 0em 0em;
+}
+
+.lighter-colour {
+    font-weight: 500;
+    color: rgb(0,0,0, 0.4);
+    margin: 0em 0.2em 0em 0em;
+}
+
+.block-info {
+    margin-top: 1em
+}
+
+.font-one {
+    font-weight: 100;
+    margin: 0;
+}
+
+.font-three {
+    font-weight: 200;
+    margin: 0;
+}
