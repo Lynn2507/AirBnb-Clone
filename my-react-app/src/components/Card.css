@@ -1,12 +1,12 @@
-section {
-    display: flex;
+.info-row {
+    display: inline-flex;
     flex-direction: row;
-    margin-left: 2em;
+    margin-left: 2.5em;
 }
 
-section > div {
+.info-column {
+    display: flex;
     flex-direction: column;
-    display: inline-block;
     position: relative;
 }
 
@@ -23,12 +23,17 @@ section > div {
     font-size: 14px;
 }
 
+/* .info-column {
+    flex-direction: column;
+    display: inline-block;
+    position: relative;
+} */
+
 .container-swimmer-img {
     border-radius: 10px;
 }
 
 .card-info {
-    display: flex;
     align-items: center;
     margin: 0;
     padding: 0;
