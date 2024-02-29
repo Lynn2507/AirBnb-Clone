@@ -1,6 +1,5 @@
 # AirBnb-Clone
-This single webpage is completed using HTML, CSS React and JavaScript
-
+This is clone of AirBnb single webpage that is completed using HTML, CSS, JavaScript and React
 
 Covered
 - Props
