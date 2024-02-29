@@ -1,5 +1,5 @@
-import airBnb from '../public/assets/Airbnb-logo.png'
-import landingPageImg from '../public/assets/landing-page-photo.png'
+import airBnb from '/assets/Airbnb-logo.png'
+import landingPageImg from '/assets/landing-page-photo.png'
 import Card from './components/Card.jsx'
 import './App.css'
 import data from "./components/Data.js"
@@ -19,13 +19,12 @@ export default function App() {
 
     const cards = data.map(item => {
         return (
-            <Card key={item.id}
-                img={item.coverImg}
-                rating={item.stats.rating}
-                reviewCount={item.stats.reviewCount}
-                location={item.location}
-                title={item.title}
-                price={item.price}
+            <Card
+                key={item.id}
+                item={item}
+                // or can use spread syntax
+                // {...item}
+                // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_object_literals
             /> 
         )
     })
