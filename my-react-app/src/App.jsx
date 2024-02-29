@@ -24,7 +24,7 @@ export default function App() {
                 rating={item.stats.rating}
                 reviewCount={item.stats.reviewCount}
                 location={item.location}
-                title={item.location}
+                title={item.title}
                 price={item.price}
             /> 
         )
@@ -35,7 +35,9 @@ export default function App() {
                 <img src={airBnb}></img>
             </nav>
             <MainContent />
-            {cards}
+            <section className='card-lists'>
+                {cards}
+            </section>
 
         </div>
     )

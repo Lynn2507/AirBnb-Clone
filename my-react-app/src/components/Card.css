@@ -23,17 +23,13 @@
     font-size: 14px;
 }
 
-/* .info-column {
-    flex-direction: column;
-    display: inline-block;
-    position: relative;
-} */
-
 .container-swimmer-img {
     border-radius: 10px;
+    max-width: 14rem;
 }
 
 .card-info {
+    display: flex;
     align-items: center;
     margin: 0;
     padding: 0;
@@ -41,13 +37,12 @@
 
 .start-img {
     height: 1.1em;
-    margin: 0em 0.3em 0em 0em;
+    margin: 0em 0.4em 0em 0em;
 }
 
 .rating {
     font-weight: 500;
     color: rgb(0,0,0, 0.7);
-    margin: 0em 1em 0em 0em;
 }
 
 .lighter-colour {
@@ -57,7 +52,7 @@
 }
 
 .block-info {
-    margin-top: 1em
+    margin: 0;
 }
 
 .font-one {
@@ -68,4 +63,10 @@
 .font-three {
     font-weight: 200;
     margin: 0;
+}
+
+.card-lists {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
 }

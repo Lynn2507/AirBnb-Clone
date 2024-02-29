@@ -5,7 +5,7 @@ export default function Card(info) {
     return (
         <section className="info-row">
             <div className="info-column">
-                <img className='container-swimmer-img' src={info.img}></img>
+                <img className='container-swimmer-img' src={`../../assets/${info.img}`}></img>
                 <h4 className='sold-out-text'>SOLD OUT</h4>
                 <div className="card-info">
                     <img className='start-img' src={star}></img>
